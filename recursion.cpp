@@ -36,7 +36,10 @@ int main()
 
 	insertionSort(arr, N);
 	printArray(arr, N);
-
+int n, x;
+cin>>n>>x;
+cout<<n<<x;
 	return 0;
+	
 }
 
