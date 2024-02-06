@@ -18,5 +18,5 @@ prince.display();
 rana.id=12;
 rana.gpa=3.34;
 rana.display();
-
+cout<<"hi";
 }
