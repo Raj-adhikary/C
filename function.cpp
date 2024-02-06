@@ -1,16 +1,36 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
-int addFunc(int, int);
-int main() {
-	int x, y, sum;
-	cout << "Enter two numbers: ";
-	cin >> x >> y;
-	sum = addFunc(x, y);
-	cout <<"The sum of "<<x<< " and " <<y<<" is: "<<sum;
-	return 0;
-}
-int addFunc(int num1, int num2) {
-	int addFunc;
-	addFunc = num1 + num2;
-	return addFunc;
+class student
+{
+public:
+     int id;
+     double gpa;
+     void display(){
+     cout<<id<<" "<<gpa<<endl;
+     }
+     student(int x,double y){
+     id=x;
+     gpa=y;
+     }
+	 student(){
+		cout<<"default constructor"<<endl;
+	 }
+};
+
+
+int main(){
+	student ob;
+
+student alim(112,3.4),s(132,3.33);
+
+alim.display();
+
+
+
+s.display();
+
+
+
+	getch();
 }
